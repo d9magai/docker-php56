@@ -9,3 +9,5 @@ RUN yum update -y
 RUN yum install -y --enablerepo=remi-php56,remi,epel php
 RUN yum clean all
 
+RUN curl -o /usr/local/bin/composer http://getcomposer.org/composer.phar && chmod +x /usr/local/bin/composer
+
