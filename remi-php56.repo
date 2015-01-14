@@ -1,0 +1,8 @@
+[remi-php56]
+name=Les RPM de Remi PHP56 - Repository
+enabled=0
+fastestmirror_enabled=true
+gpgcheck=1
+gpgkey=http://rpms.famillecollet.com/RPM-GPG-KEY-remi
+mirrorlist=http://rpms.famillecollet.com/enterprise/6/php56/mirror
+sslverify=true
