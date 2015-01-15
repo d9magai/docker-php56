@@ -1,4 +1,4 @@
-FROM centos:centos6.6 
+FROM centos
 MAINTAINER d9magai
 
 COPY epel.repo /etc/yum.repos.d/epel.repo
