@@ -1,8 +1,8 @@
 FROM centos
 MAINTAINER d9magai
 
-COPY epel.repo /etc/yum.repos.d/epel.repo
-COPY remi.repo /etc/yum.repos.d/remi.repo
+RUN rpm -Uvh http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
+RUN rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
 
 RUN yum update -y
 RUN yum install -y --enablerepo=remi-php56,remi php
