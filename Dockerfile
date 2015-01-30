@@ -10,3 +10,5 @@ yum clean all
 
 RUN curl -o /usr/local/bin/composer http://getcomposer.org/composer.phar && chmod +x /usr/local/bin/composer
 
+ENV PATH /usr/local/bin/:$PATH
+
